@@ -1,0 +1,78 @@
+/* Header */
+
+header {
+    background-color: rgb(185, 4, 185);
+    height: 15vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    padding: 0 20px;
+}
+
+.logo-and-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo-and-text img{
+width: 50px;
+}
+
+/* End Of Header */
+
+/* Main */
+
+main {
+    height: 100vh;
+    background-color: royalblue;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+}
+
+main img {
+    width: 500px;
+    height: 500px;
+  
+}
+
+.output {
+    position: relative;
+}
+
+.output strong {
+    font-size: 1.5rem;
+}
+
+.bottom-text {
+    color: white;
+    position: absolute;
+    bottom:25px;
+    left: 200px;
+}
+
+.top-text {
+    color: white;
+    position: absolute;
+    top:25px;
+    left: 200px;
+}
+
+/* End Of Main */
+
+/* Footer */
+
+footer {
+    height: 10vh;
+    background-color: rgb(224, 4, 224);
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+/* End Of Footer */
